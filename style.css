@@ -1,0 +1,123 @@
+header {
+    margin-top: 30px;
+}
+
+#logo {
+    display: block;
+    margin-right: 30;
+    float: left;
+    padding-left: 25px;
+    padding-bottom: 10px;
+}
+
+#logo-text-1 {
+    font-display: auto;
+    font-size: 36;
+    font-family: Century Gothic;
+}
+
+#logo-text-2 {
+    font-display: auto;
+    font-size: 18;
+}
+
+/* The navigation bar */
+.navbar {
+    overflow: hidden;
+    background-color: #333;
+    position: fixed;
+    /* Set the navbar to fixed position */
+    top: 0;
+    /* Position the navbar at the top of the page */
+    width: 100%;
+    /* Full width */
+    position: relative;
+    overflow: hidden;
+    /* ? */
+    height: 50px;
+    margin: -9px 0;
+}
+
+/* Links inside the navbar */
+.navbar a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    font-family: Century Gothic;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Change background on mouse-over */
+.navbar a:hover {
+    background: #ddd;
+    color: black;
+}
+
+.navbar ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    left: 50%;
+    float: left;
+}
+
+.navbar ul li {
+    position: relative;
+    left: -50%;
+    float: left;
+    margin: 0 10px;
+}
+
+.navbar ul li a {
+    display: block;
+    padding: 0 15px;
+    font-size: 15px;
+    line-height: 50px;
+}
+
+body {
+    background-color: #444444;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: auto;
+}
+
+#test-text {
+    width: 95%;
+    font-family: Verdana;
+    margin-left: auto;
+    margin-right: auto;
+    color:
+}
+
+#test-h1 {
+    text-align: center;
+    font-family: Century Gothic;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+footer {
+    text-align: center;
+    font-family: Century Gothic;
+    margin-left: auto;
+    margin-right: auto;
+    color: #f2f2f2;
+}
+
+footer p {
+    margin-top: 3;
+}
+
+#favoras {
+    color: #f2f2f2;
+}
+
+#favoras:hover {
+    background: #ddd;
+    color: black;
+}
