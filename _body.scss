@@ -1,0 +1,65 @@
+/* _body.scss */
+$txt-clr: #e0e0e0;
+
+body {
+    background-color: #444444;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: auto;
+}
+
+#text {
+    width: 95%;
+    font-family: Verdana;
+    margin-left: auto;
+    margin-right: auto;
+    color: $txt-clr;
+
+    a {
+        &:link {
+            color: red;
+        }
+
+        &:visited {
+            color: #818181;
+        }
+
+        &:active {
+            color: #fff500;
+        }
+    }
+}
+
+h1 {
+    text-align: center;
+    font-family: 'CenturyGothicCustom';
+    margin-left: auto;
+    margin-right: auto;
+    color: $txt-clr;
+}
+
+details summary::after {
+    content: "Посмотреть как работает RusFeniks";
+}
+
+details[open] summary::after {
+    content: "Ну нахер";
+}
+
+#social-img {
+    display: inline-block;
+    vertical-align: baseline;
+    max-width: 8%;
+    height: auto;
+    margin-right: 10px;
+    margin-bottom: 30px;
+    padding: 10px;
+    transition: 0.9s all;
+
+    &:hover {
+        -webkit-transform: scale(1.3);
+        -ms-transform: scale(1.3);
+        transform: scale(1.3);
+    }
+}

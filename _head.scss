@@ -1,0 +1,27 @@
+/* _head.scss */
+$logo-txt-clr: #e0e0e0;
+
+header {
+    margin-top: 30px;
+}
+
+#logo {
+    display: block;
+    margin-right: 30;
+    float: left;
+    padding-left: 25px;
+    padding-bottom: 10px;
+}
+
+#logo-text-1 {
+    font-display: auto;
+    font-size: 40;
+    font-family: 'CenturyGothicCustom';
+    color: $logo-txt-clr;
+}
+
+#logo-text-2 {
+    font-display: auto;
+    font-size: 18;
+    color: $logo-txt-clr;
+}
