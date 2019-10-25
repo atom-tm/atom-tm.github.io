@@ -1,10 +1,15 @@
 /* scss */
-@import 'head';
-@import 'navbar';
-@import 'body';
-@import 'footer';
+html {
+    scroll-behavior: smooth;
+}
 
 @font-face {
-    font-family: "CenturyGothicCustom";
-    src: url("fonts/CenturyGothicCustom.ttf");
+    font-family: 'CenturyGothicCustom';
+    src: url('fonts/CenturyGothicCustom.ttf');
 }
+
+@import 'head';
+@import 'navbar';
+@import 'gotop';
+@import 'body';
+@import 'footer';

@@ -14,14 +14,14 @@ header {
 }
 
 #logo-text-1 {
-    font-display: auto;
-    font-size: 40;
+    font-display: fallback;
+    font-size: 175%;
     font-family: 'CenturyGothicCustom';
     color: $logo-txt-clr;
 }
 
 #logo-text-2 {
     font-display: auto;
-    font-size: 18;
+    font-size: 110%;
     color: $logo-txt-clr;
 }

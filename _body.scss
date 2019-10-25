@@ -14,6 +14,8 @@ body {
     font-family: Verdana;
     margin-left: auto;
     margin-right: auto;
+    margin-top: -5px;
+    margin-bottom: 50px;
     color: $txt-clr;
 
     a {
@@ -29,6 +31,18 @@ body {
             color: #fff500;
         }
     }
+
+    &:after {
+        content: '';
+        display: block;
+        width: 90%;
+        height: 2px;
+        position: relative;
+        margin-left: auto;
+        margin-right: auto;;
+        margin-bottom: 50px;
+        background-color: #ffffff; /*#a24040;*/     /*  #ff5400; */
+    }
 }
 
 h1 {
@@ -37,6 +51,29 @@ h1 {
     margin-left: auto;
     margin-right: auto;
     color: $txt-clr;
+}
+
+#hr-main {
+    border: none;
+    border-top: 1px solid #d9d9d9;
+    color: #333;
+    overflow: visible;
+    height: 1px;
+}
+
+hr {
+    border: none;
+    border-top: 3px double #d9d9d9;
+    color: #333;
+    overflow: visible;
+    height: 1px;
+}
+
+hr:after {
+    background: #fff;
+    padding: 0 4px;
+    position: relative;
+    top: -13px;
 }
 
 details summary::after {
@@ -53,7 +90,7 @@ details[open] summary::after {
     max-width: 8%;
     height: auto;
     margin-right: 10px;
-    margin-bottom: 30px;
+    margin-bottom: 5px;
     padding: 10px;
     transition: 0.9s all;
 

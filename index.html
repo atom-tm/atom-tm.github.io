@@ -3,41 +3,43 @@
 
 <head>
     <title>Team ATOM</title>
-    <link href="style.css" rel="stylesheet" />
+    <!--CSS-->
+    <link href="normalize.css" type="text/css" rel="stylesheet">
+    <link href="style.css" type="text/css" rel="stylesheet">
 
     <!--Meta settings-->
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0" />
-    <meta name="description" content="Официальный сайт команды ATOM" />
-    <meta name="Keywords" content="ATOM, ATOM-TM, команда ATOM, Стремящиеся к новым вершинам, Aratana Takami O Mezasu, Aratana Takami O Mezashimasu, NORM, Naruto Operation Red Moon, LF2, Little, Fighter, Little Fighter" />
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0">
+    <meta name="description" content="Официальный сайт команды ATOM">
+    <meta name="Keywords" content="ATOM, ATOM-TM, команда ATOM, Стремящиеся к новым вершинам, Aratana Takami O Mezasu, Aratana Takami O Mezashimasu, NORM, Naruto Operation Red Moon, LF2, Little, Fighter, Little Fighter">
 
     <!--Favicon adaptive settings-->
-    <link rel="apple-touch-icon" sizes="57x57" href="favicon/apple-icon-57x57.png" />
-    <link rel="apple-touch-icon" sizes="60x60" href="favicon/apple-icon-60x60.png" />
-    <link rel="apple-touch-icon" sizes="72x72" href="favicon/apple-icon-72x72.png" />
-    <link rel="apple-touch-icon" sizes="76x76" href="favicon/apple-icon-76x76.png" />
-    <link rel="apple-touch-icon" sizes="114x114" href="favicon/apple-icon-114x114.png" />
-    <link rel="apple-touch-icon" sizes="120x120" href="favicon/apple-icon-120x120.png" />
-    <link rel="apple-touch-icon" sizes="144x144" href="favicon/apple-icon-144x144.png" />
-    <link rel="apple-touch-icon" sizes="152x152" href="favicon/apple-icon-152x152.png" />
-    <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-icon-180x180.png" />
-    <link rel="icon" type="image/png" sizes="192x192" href="favicon/android-icon-192x192.png" />
-    <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png" />
-    <link rel="icon" type="image/png" sizes="96x96" href="favicon/favicon-96x96.png" />
-    <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png" />
-    <link rel="manifest" href="favicon/manifest.json" />
-    <meta name="msapplication-TileColor" content="#ffffff" />
-    <meta name="msapplication-TileImage" content="favicon/ms-icon-144x144.png" />
-    <meta name="theme-color" content="#ffffff" />
+    <link rel="apple-touch-icon" sizes="57x57" href="favicon/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="favicon/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="favicon/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="favicon/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="favicon/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="favicon/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="favicon/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="favicon/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="favicon/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="favicon/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
+    <link rel="manifest" href="favicon/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="favicon/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
 </head>
 
 <body>
     <div class="navbar">
         <ul>
-            <li><a href="#about">О нас</a></li> <!-- Описание команды | О нас -->
-            <li><a href="#works">Наши работы</a></li> <!-- Проекты | Наши работы -->
-            <li><a href="#team">Наша команда</a></li> <!-- >Наша команда | Действующие и бывшие участники -->
-            <li><a href="#social">Мы в соцсетях</a></li> <!-- Ссылки на соц. сети | Мы в соцсетях -->
+            <li><a href="#about" onclick="smoothScroll('#about')">О нас</a></li> <!-- Описание команды | О нас -->
+            <li><a href="#works" onclick="smoothScroll('#works')">Наши работы</a></li> <!-- Проекты | Наши работы -->
+            <li><a href="#team" onclick="smoothScroll('#team')">Наша команда</a></li> <!-- >Наша команда | Действующие и бывшие участники -->
+            <li><a href="#social" onclick="smoothScroll('#social')">Мы в соцсетях</a></li> <!-- Ссылки на соц. сети | Мы в соцсетях -->
         </ul>
     </div>
 
@@ -51,10 +53,13 @@
         </table>
     </header>
 
+    <hr id="hr-main">
+
+    <button name="Go_to_Top_button" onclick="topFunction()" class="go-top" title="Наверх">&uarr;</button>
 
     <a id="about">
+        <h1>О нас</h1>
         <div id="text">
-            <h1>Описание команды</h1>
             <p><strong>"Стремящиеся к новым вершинам"</strong> или, попросту, <strong>команда ATOM</strong> - небольшое объединение людей разных возрастов, национальностей и интересов, которых свело вместе одно увлечение, а именно - жажда созидания. Что может быть приятнее, чем развиваться и совершенствовать свои знания? Конечно же - создавать что ни будь своё! И не просто создавать, а создавать для кого то, зная, что твоя работа может принести хоть кому ни будь пользу. И под пользой я не обязательно подразумеваю пользу практическую. Нет! Радость, хорошее настроение и способ скоротать немножко свободного времени - это всё можно дать людям, приложив лишь немного усилий. Разве это не прекрасно? Ради этого явно стоит жить.</p>
 
             <p>Так кто же мы такие? Мы - просто группа людей, которые хотят создавать что то своё. Не важно, нужно ли кому то это, есть ли аналоги тому, что мы создаём. Нам нравится сам процесс, а если кому то приглянется и результат, что же, это будет очень даже хорошо!)</p>
@@ -75,8 +80,8 @@
 
 
     <a id="works">
+        <h1>Наши проекты</h1>
         <div id="text">
-            <h1>Наши проекты</h1>
             <h3>*В разработке:</h3>
 
             <p><strong>Naruto: Operation Red Moon</strong> - основной проект команды. Посвящён аниме "Наруто", а именно преступной организации "Акацуки" - главным протагонистам данного аниме.</p>
@@ -98,24 +103,26 @@
 
 
     <a id="team">
+        <h1>Команда (WIP)</h1>
         <div id="text">
-            <h1>Команда (WIP)</h1>
-            <p>Ничто не говорит о команде так, как её труды. Тем не менее, немаловажным будет и знакомство с её участниками.</p>
-            <h3>Текущий состав:</h3>
-            <p><a href="https://github.com/RusFeniks" target="_blank">RusFeniks</a> - ака Касай ака Феникс ака Петух - отец и основатель современной команды ATOM, олдфаг, создатель NORM
-                <details>
-                    <summary></summary>
-                    <img src="img/meme/1.png" height="210">
-                    <img src="img/meme/2.png" height="210">
-                    <img src="img/meme/3.png" height="210">
-                    <img src="img/meme/4.png" height="210">
-                </details>
-            </p>
-            <p><a href="https://github.com/abelidze" target="_blank">abelidze</a> - крутой программист, прибыл на помощь в разработке Love2d Fighting</p>
-            <p><a href="https://github.com/Favorass" target="_blank">Favoras</a> - пожилое Гуччи, дизайнер NORM, падаван Петучи в ВУЗовском программировании и тот, кто делает этот сайт</p>
+            <center>
+                <p>Ничто не говорит о команде так, как её труды. Тем не менее, немаловажным будет и знакомство с её участниками.</p>
+                <h3>Текущий состав:</h3>
+                <p><a href="https://github.com/RusFeniks" target="_blank">RusFeniks</a> - ака Касай ака Феникс ака Петух - отец и основатель современной команды ATOM, олдфаг, создатель NORM
+                    <details>
+                        <summary></summary>
+                        <img src="img/meme/1.png" height="210">
+                        <img src="img/meme/2.png" height="210">
+                        <img src="img/meme/3.png" height="210">
+                        <img src="img/meme/4.png" height="210">
+                    </details>
+                </p>
+                <p><a href="https://github.com/abelidze" target="_blank">abelidze</a> - крутой программист, прибыл на помощь в разработке Love2d Fighting</p>
+                <p><a href="https://github.com/Favorass" target="_blank">Favoras</a> - пожилое Гуччи, дизайнер NORM, падаван Петучи в ВУЗовском программировании и тот, кто делает этот сайт</p>
 
-            <h3>Бывшие участники:</h3>
-            <p><a href="http://google.com" target="_blank">Soul</a> - бла бла бла бла бла</p>
+                <h3>Бывшие участники:</h3>
+                <p><a href="http://google.com" target="_blank">Soul</a> - бла бла бла бла бла</p>
+            </center>
         </div>
     </a>
 
@@ -124,16 +131,22 @@
         <h1>Мы в социальных сетях</h1>
         <div id="social" align="center">
             <a href="https://github.com/atom-tm" target="_blank"><img src="img/social/github.png" id="social-img" alt="Мы на GitHub"></a>
-            <a href="https://discord.gg/Bkf4sJ8" target="_blank"><img src="img/social/discord.png" id="social-img" alt="Мы в Discord"></a>
+            <a href="https://discordapp.com/invite/s6vBRE4" target="_blank"><img src="img/social/discord.png" id="social-img" alt="Мы в Discord"></a>
             <a href="https://vk.com/atom_tm" target="_blank"><img src="img/social/vk.png" id="social-img" alt="Мы в VK"></a>
-            <a href="https://www.youtube.com/channel/UCkqGusnQYg7eHwXg8VLVf7Q" target="_blank"><img src="img/social/youtube.png" id="social-img" alt="Мы на Youtube"></a>
+            <a href="https://www.youtube.com/user/KDFeniks" target="_blank"><img src="img/social/youtube.png" id="social-img" alt="Мы на Youtube"></a>
         </div>
     </a>
+
+    <hr id="hr-main">
 
     <footer>
         <small>&copy; Copyright 2019, ATOM-TM
             <p>Design by <a href="https://github.com/Favorass" id="favoras">Favoras</a></p></small>
     </footer>
+
+    <!--Scripts-->
+    <script src="scripts/scroll.js"></script>
+    <script src="scripts/gotop.js"></script>
 </body>
 
 </html>
