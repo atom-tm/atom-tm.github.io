@@ -1,21 +1,17 @@
 /* scss */
-html {
-    scroll-behavior: smooth;
-}
-
 @font-face {
     font-family: 'CenturyGothicCustom';
-    src: url('fonts/CenturyGothicCustom.ttf');
+    src: url('../fonts/CenturyGothicCustom.ttf');
 }
 
 @font-face {
     font-family: 'Roboto-Medium';
-    src: url('fonts/Roboto-Medium.ttf');
+    src: url('../fonts/Roboto-Medium.ttf');
 }
 
 @font-face {
     font-family: 'OpenSans-Regular';
-    src: url('fonts/OpenSans-Regular.ttf');
+    src: url('../fonts/OpenSans-Regular.ttf');
 }
 
 @import 'head';
