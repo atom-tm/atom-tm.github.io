@@ -5,7 +5,8 @@
 
 function trackScroll() {
     var scrolled = window.pageYOffset;
-    var coords = document.documentElement.clientHeight;
+    /* var coords = document.documentElement.clientHeight; */
+    var coords = document.documentElement.clientHeight/300;
 
     if (scrolled > coords) {
         goTopBtn.classList.add('go-top-show');
