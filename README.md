@@ -1,4 +1,4 @@
-# atom
+# atom-tm.github.io
 
 ## Project setup
 ```
@@ -20,5 +20,6 @@ yarn build
 yarn lint
 ```
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+### Preview
+
+[Live preview](http://htmlpreview.github.io/?https://github.com/atom-tm/atom-tm.github.io/blob/master/index.html)
