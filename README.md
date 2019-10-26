@@ -1,3 +1,24 @@
-Репозиторий разработки сайта atom-tm.github.io
+# atom
 
-[Превью сайта](http://htmlpreview.github.io/?https://github.com/atom-tm/atom-tm.github.io/blob/master/index.html)
+## Project setup
+```
+yarn install
+```
+
+### Compiles and hot-reloads for development
+```
+yarn serve
+```
+
+### Compiles and minifies for production
+```
+yarn build
+```
+
+### Lints and fixes files
+```
+yarn lint
+```
+
+### Customize configuration
+See [Configuration Reference](https://cli.vuejs.org/config/).

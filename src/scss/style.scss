@@ -8,6 +8,16 @@ html {
     src: url('fonts/CenturyGothicCustom.ttf');
 }
 
+@font-face {
+    font-family: 'Roboto-Medium';
+    src: url('fonts/Roboto-Medium.ttf');
+}
+
+@font-face {
+    font-family: 'OpenSans-Regular';
+    src: url('fonts/OpenSans-Regular.ttf');
+}
+
 @import 'head';
 @import 'navbar';
 @import 'gotop';

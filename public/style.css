@@ -6,6 +6,12 @@ html {
 @font-face {
   font-family: 'CenturyGothicCustom';
   src: url("fonts/CenturyGothicCustom.ttf"); }
+@font-face {
+  font-family: 'Roboto-Medium';
+  src: url("fonts/Roboto-Medium.ttf"); }
+@font-face {
+  font-family: 'OpenSans-Regular';
+  src: url("fonts/OpenSans-Regular.ttf"); }
 /* _head.scss */
 header {
   margin-top: 30px; }
@@ -20,7 +26,7 @@ header {
 #logo-text-1 {
   font-display: fallback;
   font-size: 175%;
-  font-family: 'CenturyGothicCustom';
+  font-family: 'CenturyGothicCustom', "Century Gothic", normal;
   color: #e0e0e0; }
 
 #logo-text-2 {
@@ -49,7 +55,7 @@ header {
     display: block;
     color: #f2f2f2;
     text-align: center;
-    font-family: 'CenturyGothicCustom';
+    font-family: 'CenturyGothicCustom', Century Gothic;
     padding: 14px 16px;
     text-decoration: none;
     transition: 0.5s all; }
@@ -104,7 +110,7 @@ body {
 
 #text {
   width: 95%;
-  font-family: Verdana;
+  font-family: 'OpenSans-Regular', "Verdana", sans-serif;
   margin-left: auto;
   margin-right: auto;
   margin-top: -5px;
@@ -131,7 +137,7 @@ body {
 
 h1 {
   text-align: center;
-  font-family: 'CenturyGothicCustom';
+  font-family: 'Roboto-Medium', Century Gothic;
   margin-left: auto;
   margin-right: auto;
   color: #e0e0e0; }
