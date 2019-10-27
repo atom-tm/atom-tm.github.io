@@ -16,10 +16,13 @@ jobs:
         cmd: build
     - name: Deploy
       if: success()
-      uses: crazy-max/ghaction-github-pages@v1
-      with:
-        target_branch: master
-        build_dir: dist
+      run: |
+        cd dist && sudo git init
+        sudo git config user.name $GITHUB_ACTOR
+        sudo git config user.email $GITHUB_ACTOR@users.noreply.github.com
+        sudo git add .
+        sudo git commit --allow-empty -m 'Deploy to GitHub pages'
+        sudo git push --force --quiet https://$GITHUB_PAT@github.com/$GITHUB_REPOSITORY.git master:master
       env:
         GITHUB_PAT: ${{ secrets.GITHUB_PAT }}
         # GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
