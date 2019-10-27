@@ -1,4 +1,4 @@
-import '@/assets/scss/index.scss'
+import '@/assets/sass/index.scss'
 import Vue from 'vue'
 import App from './App.vue'
 

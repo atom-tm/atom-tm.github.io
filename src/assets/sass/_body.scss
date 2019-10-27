@@ -79,8 +79,12 @@ hr:after {
     top: -13px;
 }
 
-details summary::after {
-    content: "Посмотреть как работает RusFeniks";
+details summary {
+    outline: none;
+
+    &::after {
+        content: "Посмотреть как работает RusFeniks";
+    }
 }
 
 details[open] summary::after {

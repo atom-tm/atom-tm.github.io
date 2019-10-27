@@ -75,17 +75,14 @@
       <center>
         <p>Ничто не говорит о команде так, как её труды. Тем не менее, немаловажным будет и знакомство с её участниками.</p>
         <h3>Текущий состав:</h3>
-        <span>
-          <a href="https://github.com/RusFeniks" target="_blank">RusFeniks</a>
-          <span> - ака Касай ака Феникс ака Петух - отец и основатель современной команды ATOM, олдфаг, создатель NORM</span>
-          <details>
-            <summary></summary>
-            <img src="img/meme/1.png" height="210" alt="1 часть мема" />
-            <img src="img/meme/2.png" height="210" alt="2 часть мема" />
-            <img src="img/meme/3.png" height="210" alt="3 часть мема" />
-            <img src="img/meme/4.png" height="210" alt="4 часть мема" />
-          </details>
-        </span>
+        <p><a href="https://github.com/RusFeniks" target="_blank">RusFeniks</a> - ака Касай ака Феникс ака Петух - отец и основатель современной команды ATOM, олдфаг, создатель NORM</p>
+        <details>
+          <summary></summary>
+          <img src="img/meme/1.png" height="210" alt="1 часть мема" />
+          <img src="img/meme/2.png" height="210" alt="2 часть мема" />
+          <img src="img/meme/3.png" height="210" alt="3 часть мема" />
+          <img src="img/meme/4.png" height="210" alt="4 часть мема" />
+        </details>
         <p><a href="https://github.com/abelidze" target="_blank">abelidze</a> - крутой программист, прибыл на помощь в разработке Love2d Fighting</p>
         <p><a href="https://github.com/Favorass" target="_blank">Favoras</a> - пожилое Гуччи, дизайнер NORM, падаван Петучи в ВУЗовском программировании и тот, кто делает этот сайт</p>
 
