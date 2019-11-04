@@ -1,58 +1,49 @@
 /* _navbar.scss */
 
 .navbar {
-    overflow: hidden;
-    background-color: #333;
-    position: fixed;
-    /* Set the navbar to fixed position */
     top: 0;
-    /* Position the navbar at the top of the page */
-    width: 100%;
-    /* Full width */
     position: relative;
-    overflow: hidden;
-    /* ? */
+    background-color: #333;
+    width: 100%;
     height: 50px;
-    margin: -9px 0;
+}
 
-    a {
-        /* Links inside the navbar */
-        float: left;
-        display: block;
-        color: #f2f2f2;
-        text-align: center;
-        font-family: 'CenturyGothicCustom', Century Gothic;
-        padding: 14px 16px;
-        text-decoration: none;
-        transition: 0.5s all;
-
-        &:hover {
-            background: #ddd;
-            color: black;
-        }
-    }
-
-    ul {
-        list-style: none;
+.nav {
+    & > ul {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        list-style-type: none;
+        justify-content: center;
         margin: 0;
         padding: 0;
-        position: relative;
-        left: 50%;
-        float: left;
 
-        li {
-            position: relative;
-            left: -50%;
-            float: left;
-            margin: 4px 10px;
+        & > li {
+            color: #f2f2f2;
+            cursor: pointer;
+            display: inline-block;
+            padding: 10px;
+            min-width: 150px;
+            height: 30px;
+            text-align: center;
+            color: #eee;
 
-            a {
-                display: block;
-                padding: 0 15px;
-                font-size: 18px;
-                line-height: 50px;
+            &:hover {
+                background: #ddd;
+                color: black;
+            }
+
+            & > a {
+                color: #f2f2f2;
+                text-align: center;
+                font-family: 'CenturyGothicCustom', Century Gothic;
+                text-decoration: none;
+                transition: 0.5s all;
+
+                &:hover {
+                    color: black;
+                }
             }
         }
-
     }
 }

@@ -1,13 +1,17 @@
 <template>
-    <div id="navbar">
+    <div class="navbar">
 
-        <div class="navbar">
-            <ul>
-                <li><a href="#about" onclick="smoothScroll('#about')">О нас</a></li> <!-- Описание команды | О нас -->
-                <li><a href="#works" onclick="smoothScroll('#works')">Наши работы</a></li> <!-- Проекты | Наши работы -->
-                <li><a href="#team" onclick="smoothScroll('#team')">Наша команда</a></li> <!-- >Наша команда | Действующие и бывшие участники -->
-                <li><a href="#social" onclick="smoothScroll('#social')">Мы в соцсетях</a></li> <!-- Ссылки на соц. сети | Мы в соцсетях -->
-            </ul>
+        <div class="container">
+            <div class="row">
+                <div class="nav">
+                    <ul>
+                        <li><a href="#about" onclick="smoothScroll('#about')">О нас</a></li>
+                        <li><a href="#works" onclick="smoothScroll('#works')">Наши работы</a></li>
+                        <li><a href="#team" onclick="smoothScroll('#team')">Наша команда</a></li>
+                        <li><a href="#social" onclick="smoothScroll('#social')">Мы в соцсетях</a></li>
+                    </ul>
+                </div>
+            </div>
         </div>
 
     </div>
@@ -15,10 +19,8 @@
 
 <script>
     export default {
-        data() {
-            return {}
-        },
-        components: {}
+        name: 'Body',
+        props: {}
     }
 
 </script>

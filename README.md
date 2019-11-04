@@ -1,4 +1,4 @@
-# atom-tm.github.io
+# atom-skeleton
 
 ## Project setup
 ```
@@ -20,6 +20,5 @@ yarn build
 yarn lint
 ```
 
-### Preview
-
-[Live preview](http://htmlpreview.github.io/?https://github.com/atom-tm/atom-tm.github.io/blob/master/index.html)
+### Customize configuration
+See [Configuration Reference](https://cli.vuejs.org/config/).

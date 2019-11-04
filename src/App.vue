@@ -1,20 +1,17 @@
 <template>
     <div id="app">
-        <Navbar></Navbar>
 
-        <Header></Header>
+        <Navbar />
+        <Header />
 
+        <Body />
 
-        <GoTop></GoTop>
-
-        <Body></Body>
     </div>
 </template>
 
 <script>
     import Navbar from './components/Navbar.vue'
     import Header from './components/Header.vue'
-    import GoTop from './components/GoTop.vue'
     import Body from './components/Body.vue'
 
     export default {
@@ -22,18 +19,19 @@
         components: {
             Navbar,
             Header,
-            GoTop,
             Body
         }
     }
 
 </script>
 
-<style lang="scss">
+<style>
     #app {
         font-family: 'Avenir', Helvetica, Arial, sans-serif;
         -webkit-font-smoothing: antialiased;
         -moz-osx-font-smoothing: grayscale;
+        text-align: center;
+        color: #2c3e50;
     }
 
 </style>

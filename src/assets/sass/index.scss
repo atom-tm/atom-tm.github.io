@@ -29,9 +29,8 @@ a {
     text-decoration: none !important;
 }
 
+@import 'skeleton/loader';
 @import 'head';
 @import 'navbar';
-@import 'gotop';
 @import 'body';
 @import 'footer';
-@import 'skeleton/loader';
