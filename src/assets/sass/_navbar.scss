@@ -9,6 +9,10 @@
     z-index: 10;
 }
 
+.row {
+    margin: 0;
+}
+
 .nav {
     & > ul {
         display: flex;
@@ -29,10 +33,10 @@
             height: 30px;
             text-align: center;
             color: #eee;
+            margin: 0;
 
             &:hover {
                 background: #ddd;
-                color: black;
             }
 
             & > a {

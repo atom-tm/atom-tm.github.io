@@ -1,5 +1,5 @@
 <template>
-    <div class="navbar">
+    <div class="navbar" id="navbar">
 
         <div class="container">
             <div class="row">
@@ -19,9 +19,12 @@
 
 <script>
     export default {
-        name: 'Body',
-        props: {}
+        data() {
+            return {}
+        },
+        components: {}
     }
+
 
 </script>
 

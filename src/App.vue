@@ -9,7 +9,6 @@
     </div>
 </template>
 
-<script src="/public/js/header.js"></script>
 
 <script>
     import Navbar from './components/Navbar.vue'
@@ -33,7 +32,7 @@
         -webkit-font-smoothing: antialiased;
         -moz-osx-font-smoothing: grayscale;
         text-align: center;
-        color: #2c3e50; 
+        color: #2c3e50;
     }
 
 </style>
