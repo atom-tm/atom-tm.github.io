@@ -9,6 +9,8 @@
     </div>
 </template>
 
+<script src="/public/js/header.js"></script>
+
 <script>
     import Navbar from './components/Navbar.vue'
     import Header from './components/Header.vue'

@@ -2,14 +2,6 @@
     <div id="header">
 
         <header>
-            <!-- <table width="100%" cellspacing="0" cellpadding="0">
-                <tr>
-                    <td id="logo"><img src="img/logo.png" width="100" alt="Логотип команды"></td>
-                    <td valign="middle" id="logo-text-1">Официальный сайт команды ATOM</td>
-                    <td valign="middle" id="logo-text-2">Стремящиеся к новым вершинам | Aratana Takami O Mezasu</td>
-                </tr>
-            </table> -->
-
             <div class="content">
                 <div class="row">
                     <div class="one-third column"><img src="img/logo.png" width="100" alt="Логотип команды"></div>
@@ -22,7 +14,7 @@
         </header>
 
         <hr class="hr-main">
-
+   
     </div>
 </template>
 
