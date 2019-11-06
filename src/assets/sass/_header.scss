@@ -3,23 +3,37 @@ $logo-txt-clr: #e0e0e0;
 
 header {
     margin-top: 79px;
+
+    text-align: center;
+
+    display: flex;
+    justify-content: space-around;
 }
 
 #logo {
-    display: block;
+    //display: block;
     float: left;
-    padding-left: 25px;
-    padding-bottom: 10px;
+    overflow: hidden;
+    //padding-left: 25px;
+    //padding-bottom: 10px;
 }
 
 #logo-text-1 {
-    font-display: fallback;
+    float: right;
+    overflow: hidden;
+    margin-right: 3em;
+
+    font-display: auto;
     font-size: 175%;
     font-family: 'CenturyGothicCustom', "Century Gothic", normal;
     color: $logo-txt-clr;
 }
 
 #logo-text-2 {
+    float: right;
+    overflow: hidden;
+    margin-right: 3em;
+
     font-display: auto;
     font-size: 110%;
     color: $logo-txt-clr;
