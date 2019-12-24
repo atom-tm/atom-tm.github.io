@@ -1,4 +1,4 @@
-# atom-skeleton
+# atom-tm website
 
 ## Project setup
 ```
