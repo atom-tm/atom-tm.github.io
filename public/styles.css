@@ -210,7 +210,7 @@ h3 {
     color: gray;
 }
 
-#works-github::after {
+.works-github::after {
     display: block;
     text-align: center;
     font-size: 14px;
@@ -220,7 +220,7 @@ h3 {
     -moz-osx-font-smoothing: grayscale;
 }
 
-#works-vk::after {
+.works-vk::after {
     display: block;
     text-align: center;
     font-size: 14px;
@@ -230,7 +230,7 @@ h3 {
     -moz-osx-font-smoothing: grayscale;
 }
 
-#works-youtube::after {
+.works-youtube::after {
     display: block;
     text-align: center;
     font-size: 14px;
@@ -290,7 +290,6 @@ h3 {
 .team-member-card:hover {
     background: #292929;
     box-shadow: 8px 8px 0px 2px rgba(0, 0, 0, .6);
-    cursor: pointer;
 }
 
 .card-img-top {
