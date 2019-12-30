@@ -185,6 +185,18 @@ h3 {
     background: rgba(107, 52, 179, 0.788);
 }
 
+.ftlf {
+    color: rgba(67, 135, 223, 0.788);
+}
+
+.btn-ftlf {
+    background: rgba(67, 153, 223, 0.788);
+}
+
+.btn-ftlf:hover {
+    background: rgba(52, 118, 179, 0.788);
+}
+
 .works_info {
     margin-top: 15px;
     margin-bottom: 10px;
