@@ -28,17 +28,20 @@
     <meta name="msapplication-TileImage" content="favicon/ms-icon-144x144.png" />
     <meta name="theme-color" content="#ffffff" />
 
+    <!-- Normalize CSS -->
+    <link rel="stylesheet" href="css/normalize.css">
+
     <!-- Bootstrap CSS -->
     <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
         integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous"> -->
-    <link rel="stylesheet" href="bootstrap.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
 
 
     <!-- Font Awesome -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 
     <!-- My styles -->
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="css/styles.css">
 
     <!-- Google Fonts -->
     <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap&subset=cyrillic,cyrillic-ext,latin-ext"
@@ -117,7 +120,7 @@
                     </p>
 
                     <blockquote class="blockquote text-left">
-                        <div class="additional-text">
+                        <div class="note">
                             Изначально команда называлась ERKD. Эта аббревиатура не имела логической расшифровки. Она
                             получилась из слияния фраз "Evolution Retryborn" и "Knight of Death".
                         </div>
@@ -142,7 +145,7 @@
                     </p>
 
                     <blockquote class="blockquote text-left">
-                        <div class="additional-text">
+                        <div class="note">
                             Созданная ATOM получила своё название от "Aratana Takami O Mezasu", что в переводе с
                             японского и
                             значит "Стремящиеся к новым вершинам".
@@ -178,12 +181,12 @@
             <h2>Наши проекты</h2>
             <h3>В разработке:</h3>
 
-            <div class="row works2-1">
+            <div class="row works_item-wip">
                 <div class="col-12 col-md-6">
                     <div class="works_pres norm">
                         <h4>NORM: Naruto Operation Red Moon</h4>
                         <h5>Версия: 1.19 (Старый движок)</h5>
-                        <div class="d-flex justify-content-center"><img src="img/norm.png" class="img-fluid"
+                        <div class="d-flex justify-content-center"><img src="img/works/norm.png" class="img-fluid"
                                 alt="NORM Logo"></div>
                         <a href="#" class="btn btn-secondary btn-lg disabled d-flex justify-content-center"
                             role="button" aria-disabled="true">Скачать NORM</a>
@@ -289,17 +292,19 @@
 
 
             <h3>Завершенные:</h3>
-            <div class="row works2">
+            <div class="row works_item-finished">
                 <div class="col-12 col-md-6">
-                    <div class="works_pres ntlh">
-                        <h4>NTLH: Naruto The Legendary Hero</h4>
-                        <h5>Версия: 2.0 Demo Final 2016</h5>
-                        <br>
-                        <div class="d-flex justify-content-center"><img src="img/norm.png" class="img-fluid"
-                                alt="NTLH Logo"></div>
-                        <a href="http://www.mediafire.com/file/lma3rtk37dp515n/NTLH_2.0_vDemo_Final_2016.rar/file"
-                            class="btn btn-ntlh btn-lg d-flex justify-content-center" role="button"
-                            aria-disabled="false">Скачать NTLH (MediaFire)</a>
+                    <div class="works_pres">
+                        <div class="ntlh">
+                            <h4>NTLH: Naruto The Legendary Hero</h4>
+                            <h5>Версия: 2.0 Demo Final 2016</h5>
+                            <br>
+                            <div class="d-flex justify-content-center"><img src="img/works/norm.png" class="img-fluid"
+                                    alt="NTLH Logo"></div>
+                            <a href="http://www.mediafire.com/file/lma3rtk37dp515n/NTLH_2.0_vDemo_Final_2016.rar/file"
+                                class="btn btn-ntlh btn-lg d-flex justify-content-center" role="button"
+                                aria-disabled="false">Скачать NTLH (MediaFire)</a>
+                        </div>
                     </div>
                 </div>
                 <div class="col-12 col-md-6">
@@ -329,16 +334,18 @@
             </div>
             </div>
 
-            <div class="row works2">
+            <div class="row works_item-finished">
                 <div class="col-12 col-md-6">
-                    <div class="works_pres btss">
-                        <h4>BTSS: Bleach The Soul and Sword</h4>
-                        <br>
-                        <div class="d-flex justify-content-center"><img src="img/norm.png" class="img-fluid"
-                                alt="BTSS Logo"></div>
-                        <a href="https://yadi.sk/d/FSZV9dvGAtaDs"
-                            class="btn btn-btss btn-lg d-flex justify-content-center" role="button"
-                            aria-disabled="false">Скачать BTSS (Яндекс.Диск)</a>
+                    <div class="works_pres">
+                        <div class="btss">
+                            <h4>BTSS: Bleach The Soul and Sword</h4>
+                            <br>
+                            <div class="d-flex justify-content-center"><img src="img/works/norm.png" class="img-fluid"
+                                    alt="BTSS Logo"></div>
+                            <a href="https://yadi.sk/d/FSZV9dvGAtaDs"
+                                class="btn btn-btss btn-lg d-flex justify-content-center" role="button"
+                                aria-disabled="false">Скачать BTSS (Яндекс.Диск)</a>
+                        </div>
                     </div>
                 </div>
                 <div class="col-12 col-md-6">
@@ -366,19 +373,21 @@
                 </div>
             </div>
 
-            <div class="row works2">
+            <div class="row works_item-finished">
                 <div class="col-12 col-md-6">
-                    <div class="works_pres ftlf">
-                        <h4>FTLF2: Fairy Tale Little Fighter 2 & FTBW</h4>
-                        <br>
-                        <div class="d-flex justify-content-center"><img src="img/norm.png" class="img-fluid"
-                                alt="FTLF2 Logo"></div>
-                        <a href="https://yadi.sk/d/6XKVYV2VAtaEE"
-                            class="btn btn-ftlf btn-lg d-flex justify-content-center" role="button"
-                            aria-disabled="false">Скачать FTLF2 (Яндекс.Диск)</a>
-                        <a href="https://yadi.sk/d/HSG-ejzZf2UGE"
-                            class="btn btn-ftlf btn-lg d-flex justify-content-center" role="button"
-                            aria-disabled="false">Скачать FTBW (Яндекс.Диск)</a>
+                    <div class="works_pres">
+                        <div class="ftlf">
+                            <h4>FTLF2: Fairy Tale Little Fighter 2 & FTBW</h4>
+                            <br>
+                            <div class="d-flex justify-content-center"><img src="img/works/norm.png" class="img-fluid"
+                                    alt="FTLF2 Logo"></div>
+                            <a href="https://yadi.sk/d/6XKVYV2VAtaEE"
+                                class="btn btn-ftlf btn-lg d-flex justify-content-center" role="button"
+                                aria-disabled="false">Скачать FTLF2 (Яндекс.Диск)</a>
+                            <a href="https://yadi.sk/d/HSG-ejzZf2UGE"
+                                class="btn btn-ftlf btn-lg d-flex justify-content-center" role="button"
+                                aria-disabled="false">Скачать FTBW (Яндекс.Диск)</a>
+                        </div>
                     </div>
                 </div>
                 <div class="col-12 col-md-6">

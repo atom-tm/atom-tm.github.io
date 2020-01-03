@@ -1,0 +1,75 @@
+/* _bootstrap_edits.scss START */
+
+/* Bootstrap edits */
+/* Grid */
+.container,
+.container-fluid {
+    padding: 0;
+}
+
+.row {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+.col {
+    padding: 0;
+}
+
+/* Navbar */
+.navbar {
+    background: #292929;
+
+    img {
+        max-width: 48px;
+        padding-right: 7px;
+    }
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: rgba(255, 255, 255, .685);
+
+    &:hover {
+        color: rgba(255, 255, 255, .95);
+    }
+}
+
+.navbar-toggler {
+    border: none;
+}
+
+/* Button */
+.btn {
+    border-radius: 0;
+    margin-top: 16px;
+    margin-bottom: 8px;
+    box-shadow: 4px 4px 0px 2px rgba(0, 0, 0, 0.225);
+
+    &:hover {
+        box-shadow: 4px 4px 0px 2px rgba(0, 0, 0, 0.325);
+    }
+}
+
+/* Carousel */
+.carousel {
+    margin-bottom: 8px;
+    box-shadow: 7px 7px 0px 2px rgba(0, 0, 0, 0.247);
+}
+
+.carousel-caption {
+    padding-right: 14px;
+    padding-left: 14px;
+    background: rgba(39, 39, 39, 0.651);
+}
+
+/* Card */
+.card {
+    border: none;
+    margin-top: 2rem;
+}
+
+.card-img-top {
+    margin-bottom: 12px;
+    width: 85%;
+}

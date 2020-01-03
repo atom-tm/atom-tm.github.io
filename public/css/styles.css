@@ -1,0 +1,408 @@
+@charset "UTF-8";
+/* _bootstrap_edits.scss START */
+/* Bootstrap edits */
+/* Grid */
+.container,
+.container-fluid {
+  padding: 0;
+}
+
+.row {
+  width: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+.col {
+  padding: 0;
+}
+
+/* Navbar */
+.navbar {
+  background: #292929;
+}
+
+.navbar img {
+  max-width: 48px;
+  padding-right: 7px;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+  color: rgba(255, 255, 255, 0.685);
+}
+
+.navbar-dark .navbar-nav .nav-link:hover {
+  color: rgba(255, 255, 255, 0.95);
+}
+
+.navbar-toggler {
+  border: none;
+}
+
+/* Button */
+.btn {
+  border-radius: 0;
+  margin-top: 16px;
+  margin-bottom: 8px;
+  -webkit-box-shadow: 4px 4px 0px 2px rgba(0, 0, 0, 0.225);
+          box-shadow: 4px 4px 0px 2px rgba(0, 0, 0, 0.225);
+}
+
+.btn:hover {
+  -webkit-box-shadow: 4px 4px 0px 2px rgba(0, 0, 0, 0.325);
+          box-shadow: 4px 4px 0px 2px rgba(0, 0, 0, 0.325);
+}
+
+/* Carousel */
+.carousel {
+  margin-bottom: 8px;
+  -webkit-box-shadow: 7px 7px 0px 2px rgba(0, 0, 0, 0.247);
+          box-shadow: 7px 7px 0px 2px rgba(0, 0, 0, 0.247);
+}
+
+.carousel-caption {
+  padding-right: 14px;
+  padding-left: 14px;
+  background: rgba(39, 39, 39, 0.651);
+}
+
+/* Card */
+.card {
+  border: none;
+  margin-top: 2rem;
+}
+
+.card-img-top {
+  margin-bottom: 12px;
+  width: 85%;
+}
+
+/* _global.scss START */
+/* Global */
+body,
+html {
+  background: #333333;
+  /* font-size: 18px; */
+  font-family: 'Montserrat', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  scroll-behavior: smooth;
+}
+
+/* Headings */
+h1 {
+  text-align: center;
+}
+
+h2 {
+  text-align: center;
+}
+
+h3 {
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+/* Links */
+a {
+  -webkit-transition: 0.35s all;
+  transition: 0.35s all;
+}
+
+/* Section */
+section {
+  position: relative;
+}
+
+/* hr in footer */
+hr {
+  margin: 7px;
+  border: 1px solid rgba(128, 128, 128, 0.555);
+  border-radius: 1px;
+}
+
+.note {
+  border-left: 5px solid;
+  padding-left: 20px;
+  padding-right: 5px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  background: #2c2c2c;
+  color: #868686d0;
+  font-size: 16px;
+}
+
+.atom-ancor {
+  position: absolute;
+}
+
+/* _body.scss START */
+/* About */
+.about {
+  padding-top: 1%;
+  padding-bottom: 1%;
+  padding-right: 5%;
+  padding-left: 5%;
+  background: rgba(37, 37, 37, 0.308);
+}
+
+/* Works */
+.works {
+  padding-top: 1%;
+  padding-bottom: 1%;
+  padding-right: 5%;
+  padding-left: 5%;
+}
+
+.works .works_item-wip {
+  margin-bottom: 35px;
+  background: rgba(37, 37, 37, 0.212);
+  -webkit-box-shadow: 12px 12px 0px 3px rgba(0, 0, 0, 0.2);
+          box-shadow: 12px 12px 0px 3px rgba(0, 0, 0, 0.2);
+}
+
+.works .works_item-finished {
+  margin-bottom: 45px;
+  background: rgba(37, 37, 37, 0.212);
+  -webkit-box-shadow: 12px 12px 0px 3px rgba(0, 0, 0, 0.2);
+          box-shadow: 12px 12px 0px 3px rgba(0, 0, 0, 0.2);
+}
+
+.works .works_pres {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.works .works_pres img {
+  text-align: center;
+}
+
+.works .works_pres .norm {
+  color: rgba(223, 67, 67, 0.788);
+}
+
+.works .works_pres .ntlh {
+  color: rgba(223, 142, 67, 0.788);
+}
+
+.works .works_pres .ntlh .btn-ntlh {
+  background: rgba(223, 142, 67, 0.788);
+}
+
+.works .works_pres .ntlh .btn-ntlh:hover {
+  background: rgba(189, 119, 53, 0.788);
+}
+
+.works .works_pres .btss {
+  color: rgba(135, 67, 223, 0.788);
+}
+
+.works .works_pres .btss .btn-btss {
+  background: rgba(135, 67, 223, 0.788);
+}
+
+.works .works_pres .btss .btn-btss:hover {
+  background: rgba(107, 52, 179, 0.788);
+}
+
+.works .works_pres .ftlf {
+  color: rgba(67, 135, 223, 0.788);
+}
+
+.works .works_pres .ftlf .btn-ftlf {
+  background: rgba(67, 153, 223, 0.788);
+}
+
+.works .works_pres .ftlf .btn-ftlf:hover {
+  background: rgba(52, 118, 179, 0.788);
+}
+
+.works .works_info {
+  margin-top: 15px;
+  margin-bottom: 10px;
+}
+
+.works .works_info .works_info-socials {
+  padding-top: 1%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  text-align: center;
+}
+
+.works .works_info .works_info-socials i {
+  color: white;
+  font-size: 42px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.works .works_info .works_info-socials i:hover {
+  -webkit-transition: all 0.35s;
+  transition: all 0.35s;
+  color: gray;
+}
+
+.works .works_info .works_info-socials a:hover #works-github {
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+  color: #171515;
+}
+
+.works .works_info .works_info-socials a:hover #works-discord {
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+  color: #7389DC;
+}
+
+.works .works_info .works_info-socials a:hover #works-vk {
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+  color: #4A76A8;
+}
+
+.works .works_info .works_info-socials a:hover #works-youtube {
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+  color: #FF0000;
+}
+
+.works .works_info .works_info-socials .works-github::after {
+  display: block;
+  text-align: center;
+  font-size: 14px;
+  content: "Репозиторий GitHub";
+  font-family: 'Montserrat', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.works .works_info .works_info-socials .works-vk::after {
+  display: block;
+  text-align: center;
+  font-size: 14px;
+  content: "Паблик ВКонтакте";
+  font-family: 'Montserrat', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.works .works_info .works_info-socials .works-youtube::after {
+  display: block;
+  text-align: center;
+  font-size: 14px;
+  content: "Тизер";
+  font-family: 'Montserrat', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Team */
+.team {
+  padding-top: 1%;
+  padding-bottom: 2rem;
+  padding-right: 5%;
+  padding-left: 5%;
+  background: rgba(37, 37, 37, 0.308);
+}
+
+.team a {
+  color: red;
+  text-decoration: none;
+}
+
+.team a:hover {
+  color: #aa0505;
+}
+
+.team .team-member-card {
+  padding-top: 25px;
+  -webkit-transition: 0.35s all;
+  transition: 0.35s all;
+  background: #2e2e2e;
+  -webkit-box-shadow: 8px 8px 0px 2px rgba(0, 0, 0, 0.4);
+          box-shadow: 8px 8px 0px 2px rgba(0, 0, 0, 0.4);
+}
+
+.team .team-member-card:hover {
+  background: #292929;
+  -webkit-box-shadow: 8px 8px 0px 2px rgba(0, 0, 0, 0.6);
+          box-shadow: 8px 8px 0px 2px rgba(0, 0, 0, 0.6);
+}
+
+.team details summary:after {
+  content: "RusFeniks отличается особым трудолюбием";
+  color: #ce4747;
+}
+
+/* _footer.scss START */
+/* Footer */
+footer {
+  background: #303030;
+  color: white;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+
+footer .footer_wrapper {
+  margin-left: 2%;
+  margin-right: 2%;
+}
+
+footer .footer_wrapper .footer_slogan {
+  margin-top: 1rem;
+  margin-bottom: 0.75rem;
+}
+
+footer .footer_wrapper .footer_slogan #favoras {
+  color: #b11aa9;
+}
+
+footer .footer_wrapper .footer_slogan #favoras:hover {
+  background: #f582e5;
+  color: black;
+}
+
+footer .footer_wrapper .footer_social-title {
+  margin-bottom: 0.5rem;
+  font-size: 24px;
+}
+
+footer .footer_wrapper .footer_social i {
+  color: gray;
+  font-size: 28px;
+  padding: 0.2rem;
+  padding-bottom: 0.5rem;
+}
+
+footer .footer_wrapper .footer_social a:hover #footer-github {
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+  color: #171515;
+}
+
+footer .footer_wrapper .footer_social a:hover #footer-discord {
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+  color: #7389DC;
+}
+
+footer .footer_wrapper .footer_social a:hover #footer-vk {
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+  color: #4A76A8;
+}
+
+footer .footer_wrapper .footer_social a:hover #footer-youtube {
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+  color: #FF0000;
+}
+/*# sourceMappingURL=styles.css.map */

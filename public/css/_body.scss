@@ -1,0 +1,197 @@
+/* _body.scss START */
+
+/* About */
+.about {
+    padding-top: 1%;
+    padding-bottom: 1%;
+    padding-right: 5%;
+    padding-left: 5%;
+    background: rgba(37, 37, 37, 0.308);
+}
+
+
+/* Works */
+.works {
+    padding-top: 1%;
+    padding-bottom: 1%;
+    padding-right: 5%;
+    padding-left: 5%;
+
+    .works_item-wip {
+        margin-bottom: 35px;
+        background: rgba(37, 37, 37, 0.212);
+        box-shadow: 12px 12px 0px 3px rgba(0, 0, 0, .2);
+    }
+
+    .works_item-finished {
+        margin-bottom: 45px;
+        background: rgba(37, 37, 37, 0.212);
+        box-shadow: 12px 12px 0px 3px rgba(0, 0, 0, .2);
+    }
+
+
+    .works_pres {
+        margin-top: 10px;
+        margin-bottom: 10px;
+
+        img {
+            text-align: center;
+        }
+
+
+        .norm {
+            color: rgba(223, 67, 67, 0.788);
+        }
+
+        .ntlh {
+            color: rgba(223, 142, 67, 0.788);
+
+            .btn-ntlh {
+                background: rgba(223, 142, 67, 0.788);
+
+                &:hover {
+                    background: rgba(189, 119, 53, 0.788);
+                }
+            }
+        }
+
+        .btss {
+            color: rgba(135, 67, 223, 0.788);
+
+            .btn-btss {
+                background: rgba(135, 67, 223, 0.788);
+
+                &:hover {
+                    background: rgba(107, 52, 179, 0.788);
+                }
+            }
+        }
+
+        .ftlf {
+            color: rgba(67, 135, 223, 0.788);
+
+            .btn-ftlf {
+                background: rgba(67, 153, 223, 0.788);
+
+                &:hover {
+                    background: rgba(52, 118, 179, 0.788);
+                }
+            }
+        }
+
+    }
+
+
+    .works_info {
+        margin-top: 15px;
+        margin-bottom: 10px;
+
+        .works_info-socials {
+            padding-top: 1%;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-evenly;
+            text-align: center;
+
+            i {
+                color: white;
+                font-size: 42px;
+                margin-top: 10px;
+                margin-bottom: 10px;
+
+                &:hover {
+                    transition: all 0.35s;
+                    color: gray;
+                }
+            }
+
+            a {
+                &:hover #works-github {
+                    transition: all 0.5s;
+                    color: #171515;
+                }
+
+                &:hover #works-discord {
+                    transition: all 0.5s;
+                    color: #7389DC;
+                }
+
+                &:hover #works-vk {
+                    transition: all 0.5s;
+                    color: #4A76A8;
+                }
+
+                &:hover #works-youtube {
+                    transition: all 0.5s;
+                    color: #FF0000;
+                }
+            }
+
+            .works-github::after {
+                display: block;
+                text-align: center;
+                font-size: 14px;
+                content: "Репозиторий GitHub";
+                font-family: 'Montserrat', sans-serif;
+                -webkit-font-smoothing: antialiased;
+                -moz-osx-font-smoothing: grayscale;
+            }
+
+            .works-vk::after {
+                display: block;
+                text-align: center;
+                font-size: 14px;
+                content: "Паблик ВКонтакте";
+                font-family: 'Montserrat', sans-serif;
+                -webkit-font-smoothing: antialiased;
+                -moz-osx-font-smoothing: grayscale;
+            }
+
+            .works-youtube::after {
+                display: block;
+                text-align: center;
+                font-size: 14px;
+                content: "Тизер";
+                font-family: 'Montserrat', sans-serif;
+                -webkit-font-smoothing: antialiased;
+                -moz-osx-font-smoothing: grayscale;
+            }
+        }
+    }
+}
+
+
+/* Team */
+.team {
+    padding-top: 1%;
+    padding-bottom: 2rem;
+    padding-right: 5%;
+    padding-left: 5%;
+    background: rgba(37, 37, 37, 0.308);
+
+    a {
+        color: red;
+        text-decoration: none;
+
+        &:hover {
+            color: rgb(170, 5, 5);
+        }
+    }
+
+    .team-member-card {
+        padding-top: 25px;
+        transition: 0.35s all;
+        background: #2e2e2e;
+        box-shadow: 8px 8px 0px 2px rgba(0, 0, 0, 0.4);
+
+        &:hover {
+            background: #292929;
+            box-shadow: 8px 8px 0px 2px rgba(0, 0, 0, .6);
+        }
+    }
+
+    details summary:after {
+        content: "RusFeniks отличается особым трудолюбием";
+        color: rgb(206, 71, 71);
+    }
+}
