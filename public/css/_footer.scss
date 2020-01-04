@@ -7,11 +7,11 @@ footer {
     padding-top: 3rem;
     padding-bottom: 3rem;
 
-    .footer_wrapper {
+    .footer__wrapper {
         margin-left: 2%;
         margin-right: 2%;
 
-        .footer_slogan {
+        .footer__wrapper_slogan {
             margin-top: 1rem;
             margin-bottom: 0.75rem;
 
@@ -25,12 +25,12 @@ footer {
             }
         }
 
-        .footer_social-title {
+        .footer__wrapper_social-title {
             margin-bottom: 0.5rem;
             font-size: 24px;
         }
 
-        .footer_social {
+        .footer__wrapper_social {
             i {
                 color: gray;
                 font-size: 28px;

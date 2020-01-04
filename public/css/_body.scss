@@ -1,4 +1,8 @@
 /* _body.scss START */
+.atom-ancor {
+    position: absolute;
+}
+
 
 /* About */
 .about {
@@ -6,7 +10,27 @@
     padding-bottom: 1%;
     padding-right: 5%;
     padding-left: 5%;
+}
+
+
+/* History */
+.history {
+    padding-top: 1%;
+    padding-bottom: 1%;
+    padding-right: 5%;
+    padding-left: 5%;
     background: rgba(37, 37, 37, 0.308);
+
+    .history__note {
+        border-left: 5px solid;
+        padding-left: 20px;
+        padding-right: 5px;
+        padding-top: 12px;
+        padding-bottom: 12px;
+        background: rgb(44, 44, 44);
+        color: #868686d0;
+        font-size: 16px;
+    }
 }
 
 
@@ -17,36 +41,29 @@
     padding-right: 5%;
     padding-left: 5%;
 
-    .works_item-wip {
+    .works__item {
         margin-bottom: 35px;
         background: rgba(37, 37, 37, 0.212);
         box-shadow: 12px 12px 0px 3px rgba(0, 0, 0, .2);
-    }
 
-    .works_item-finished {
-        margin-bottom: 45px;
-        background: rgba(37, 37, 37, 0.212);
-        box-shadow: 12px 12px 0px 3px rgba(0, 0, 0, .2);
-    }
+        .works__item_pres {
+            margin-top: 10px;
+            margin-bottom: 10px;
 
-
-    .works_pres {
-        margin-top: 10px;
-        margin-bottom: 10px;
-
-        img {
-            text-align: center;
+            img {
+                text-align: center;
+            }
         }
 
 
-        .norm {
+        .works__item_pres_norm {
             color: rgba(223, 67, 67, 0.788);
         }
 
-        .ntlh {
+        .works__item_pres_ntlh {
             color: rgba(223, 142, 67, 0.788);
 
-            .btn-ntlh {
+            .works__item_pres_ntlh_btn {
                 background: rgba(223, 142, 67, 0.788);
 
                 &:hover {
@@ -55,10 +72,10 @@
             }
         }
 
-        .btss {
+        .works__item_pres_btss {
             color: rgba(135, 67, 223, 0.788);
 
-            .btn-btss {
+            .works__item_pres_btss_btn {
                 background: rgba(135, 67, 223, 0.788);
 
                 &:hover {
@@ -67,10 +84,10 @@
             }
         }
 
-        .ftlf {
+        .works__item_pres_ftlf {
             color: rgba(67, 135, 223, 0.788);
 
-            .btn-ftlf {
+            .works__item_pres_ftlf_btn {
                 background: rgba(67, 153, 223, 0.788);
 
                 &:hover {
@@ -82,11 +99,11 @@
     }
 
 
-    .works_info {
+    .works__item_info {
         margin-top: 15px;
         margin-bottom: 10px;
 
-        .works_info-socials {
+        .works__item_info_socials {
             padding-top: 1%;
             display: flex;
             flex-direction: row;
@@ -127,7 +144,7 @@
                 }
             }
 
-            .works-github::after {
+            .works__item_info_socials-github::after {
                 display: block;
                 text-align: center;
                 font-size: 14px;
@@ -137,7 +154,7 @@
                 -moz-osx-font-smoothing: grayscale;
             }
 
-            .works-vk::after {
+            .works__item_info_socials-vk::after {
                 display: block;
                 text-align: center;
                 font-size: 14px;
@@ -147,7 +164,7 @@
                 -moz-osx-font-smoothing: grayscale;
             }
 
-            .works-youtube::after {
+            .works__item_info_socials-youtube::after {
                 display: block;
                 text-align: center;
                 font-size: 14px;
@@ -178,7 +195,7 @@
         }
     }
 
-    .team-member-card {
+    .team__card {
         padding-top: 25px;
         transition: 0.35s all;
         background: #2e2e2e;
