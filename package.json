@@ -6,7 +6,7 @@
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint",
-    "run": "http-server ./dist"
+    "http-server": "http-server ./dist"
   },
   "dependencies": {
     "core-js": "^3.3.2",

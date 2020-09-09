@@ -16,6 +16,12 @@ module.exports = {
                 new PrerenderSpaPlugin({
                     staticDir: path.resolve(__dirname, 'dist'),
                     routes: [ '/' ],
+                    postProcess(route) {
+                        route.html = route.html
+                            .replace(/<script (.*?)>/g, '<script $1 defer>')
+                            .replace('id="app"', 'id="app" data-server-rendered="true"');
+                        return route;
+                    },
                     renderer: new Renderer({
                         inject: { },
                         headless: true,
