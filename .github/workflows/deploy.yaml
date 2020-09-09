@@ -7,13 +7,13 @@ jobs:
     - name: Checkout
       uses: actions/checkout@v2
     - name: Install
-      uses: borales/actions-yarn@v2.3.0
+      uses: ianwalter/puppeteer-container@v4.0.0
       with:
-        cmd: install
+        args: yarn install
     - name: Build
-      uses: borales/actions-yarn@v2.3.0
+      uses: ianwalter/puppeteer-container@v4.0.0
       with:
-        cmd: build
+        args: yarn build
     - name: Deploy
       if: success()
       run: |

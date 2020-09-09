@@ -17,8 +17,10 @@ module.exports = {
                     staticDir: path.resolve(__dirname, 'dist'),
                     routes: [ '/' ],
                     renderer: new Renderer({
+                        inject: { },
                         headless: true,
-                        renderAfterDocumentEvent: 'render-event'
+                        renderAfterDocumentEvent: 'render-event',
+                        executablePath: process.env.PUPPETEER_EXECUTABLE_PATH,
                     })
                 }),
             ]
