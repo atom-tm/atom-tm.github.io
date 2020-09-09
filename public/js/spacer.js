@@ -1,4 +1,4 @@
-function init() {
+(function () {
 
     let navBarId = 'atom-navbar';
     let spacerBlockId = 'atom-spacer';
@@ -63,6 +63,4 @@ function init() {
         setAncorOffset(navBarId, ancorClass);
     });
 
-};
-
-init();
+})();

@@ -1,11 +1,12 @@
 {
   "name": "atom",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "private": true,
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
-    "lint": "vue-cli-service lint"
+    "lint": "vue-cli-service lint",
+    "run": "http-server ./dist"
   },
   "dependencies": {
     "core-js": "^3.3.2",
@@ -19,9 +20,11 @@
     "css-loader": "^3.2.0",
     "eslint": "^5.16.0",
     "eslint-plugin-vue": "^5.0.0",
+    "http-server": "^0.11.1",
+    "prerender-spa-plugin": "^3.4.0",
+    "puppeteer": "^5.2.1",
     "sass": "^1.23.1",
     "sass-loader": "^8.0.0",
-    "skeleton-sass-official": "^3.1.6",
     "vue-template-compiler": "^2.6.10"
   },
   "eslintConfig": {

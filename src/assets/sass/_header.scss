@@ -1,40 +1,95 @@
-/* _header.scss */
-$logo-txt-clr: #e0e0e0;
+/* _header.scss START */
 
-header {
-    margin-top: 79px;
-
-    text-align: center;
-
-    display: flex;
-    justify-content: space-around;
+/* Logo animation */
+.navbar-brand {
+    img {
+        animation-name: rotateIn;
+        animation-duration: 1.25s;
+    }
 }
 
-#logo {
-    //display: block;
-    float: left;
-    overflow: hidden;
-    //padding-left: 25px;
-    //padding-bottom: 10px;
+
+@-webkit-keyframes rotateIn {
+    from {
+        -webkit-transform-origin: center;
+        transform-origin: center;
+        -webkit-transform: rotate3d(0, 0, 1, -200deg);
+        transform: rotate3d(0, 0, 1, -200deg);
+        opacity: 0;
+    }
+
+    to {
+        -webkit-transform-origin: center;
+        transform-origin: center;
+        -webkit-transform: translate3d(0, 0, 0);
+        transform: translate3d(0, 0, 0);
+        opacity: 1;
+    }
 }
 
-#logo-text-1 {
-    float: right;
-    overflow: hidden;
-    margin-right: 3em;
+@keyframes rotateIn {
+    from {
+        -webkit-transform-origin: center;
+        transform-origin: center;
+        -webkit-transform: rotate3d(0, 0, 1, -200deg);
+        transform: rotate3d(0, 0, 1, -200deg);
+        opacity: 0;
+    }
 
-    font-display: auto;
-    font-size: 175%;
-    font-family: 'CenturyGothicCustom', "Century Gothic", normal;
-    color: $logo-txt-clr;
+    to {
+        -webkit-transform-origin: center;
+        transform-origin: center;
+        -webkit-transform: translate3d(0, 0, 0);
+        transform: translate3d(0, 0, 0);
+        opacity: 1;
+    }
 }
 
-#logo-text-2 {
-    float: right;
-    overflow: hidden;
-    margin-right: 3em;
+.rotateIn {
+    -webkit-animation-name: rotateIn;
+    animation-name: rotateIn;
+}
 
-    font-display: auto;
-    font-size: 110%;
-    color: $logo-txt-clr;
+
+
+/* Navbar animation */
+.navbar {
+    span {
+        animation-name: fadeInRight;
+        animation-duration: 1.1s;
+    }
+}
+
+
+@-webkit-keyframes fadeInRight {
+    from {
+        opacity: 0;
+        -webkit-transform: translate3d(100%, 0, 0);
+        transform: translate3d(100%, 0, 0);
+    }
+
+    to {
+        opacity: 1;
+        -webkit-transform: translate3d(0, 0, 0);
+        transform: translate3d(0, 0, 0);
+    }
+}
+
+@keyframes fadeInRight {
+    from {
+        opacity: 0;
+        -webkit-transform: translate3d(100%, 0, 0);
+        transform: translate3d(100%, 0, 0);
+    }
+
+    to {
+        opacity: 1;
+        -webkit-transform: translate3d(0, 0, 0);
+        transform: translate3d(0, 0, 0);
+    }
+}
+
+.fadeInRight {
+    -webkit-animation-name: fadeInRight;
+    animation-name: fadeInRight;
 }

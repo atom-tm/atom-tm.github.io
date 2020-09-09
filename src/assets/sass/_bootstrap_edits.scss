@@ -58,6 +58,8 @@
 }
 
 .carousel-caption {
+    overflow-y: auto;
+    max-height: calc(100% - 29px);
     padding-right: 14px;
     padding-left: 14px;
     background: rgba(39, 39, 39, 0.651);

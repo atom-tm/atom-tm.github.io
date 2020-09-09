@@ -1,44 +1,11 @@
-/* scss */
-@font-face {
-    font-family: 'CenturyGothicCustom';
-    src: url('../fonts/CenturyGothicCustom.ttf');
-}
+/* Bootstrap */
+@import "bootstrap/bootstrap.scss";
+@import "bootstrap/bootstrap-grid.scss";
+@import "bootstrap/bootstrap-reboot.scss";
 
-@font-face {
-    font-family: 'Roboto-Medium';
-    src: url('../fonts/Roboto-Medium.ttf');
-}
-
-@font-face {
-    font-family: 'OpenSans-Regular';
-    src: url('../fonts/OpenSans-Regular.ttf');
-}
-
-img {
-    // pointer-events: none;
-    -webkit-user-select: none;
-    -webkit-user-drag: none;
-    -moz-user-select: none;
-    -ms-user-select: none;
-    user-select: none;
-    user-drag: none;
-}
-
-a {
-    outline: none !important;
-    text-decoration: none !important;
-}
-
-
-//:target {
-   // display: flex;
-   // position: relative;
-   // top: -120px;
-    //visibility: hidden;
-//}
-
-@import 'skeleton/loader';
-@import 'header';
-@import 'navbar';
-@import 'body';
-@import 'footer';
+/* ATOM Styles */
+@import "bootstrap_edits";
+@import "global";
+@import "header";
+@import "body";
+@import "footer";
